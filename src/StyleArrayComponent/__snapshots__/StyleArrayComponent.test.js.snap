@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StyleArrayComponent enzyme - snapshot 1`] = `
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-0 {
+  background-color: black;
+  color: white;
+}
+
+<_default>
+  <div
+    className="emotion-1"
+  >
+    Test content
+    <div
+      className="emotion-0"
+    />
+  </div>
+</_default>
+`;

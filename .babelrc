@@ -1,0 +1,20 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "loose": true,
+        "exclude": [
+          "transform-async-to-generator",
+          "transform-regenerator"
+        ]
+      }
+    ],
+    "@babel/preset-react",
+    "@emotion/babel-preset-css-prop"
+  ],
+  "plugins": [
+    "emotion"
+  ],
+  "comments": false
+}
